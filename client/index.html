@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Kanban</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+        .font-family-karla {
+            font-family: karla;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-family-karla h-screen">
+    <nav class="flex items-center justify-between flex-wrap bg-white p-3 shadow">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <img class="w-12" src="https://mustopa28121992.github.io/projectt/img/fox--md5--a9e377ae39495073d0e66db163fc8d9b.png" alt="">
+          <p href="#" id="toHomeDashboard" class="font-semibold ml-4 text-xl text-gray-700 tracking-tight">Kanban Board</p>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            
+          </div>
+          <div>
+            <a href="#"  class="inline-block text-sm px-4 py-2 leading-none bg-orange-500 font-bold rounded text-white hover:bg-orange-600 focus:bg-orange-400 mt-4 mr-5 lg:mt-0">New Task</a>
+            <a href="#"  class="inline-block text-sm px-4 py-2 leading-none bg-gray-300 font-bold rounded text-gray-700 hover:bg-gray-400 mt-4 lg:mt-0">Logout</a>
+          </div>
+        </div>
+    </nav>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-3 px-10 mt-5">
+        <div class="bg-white rounded-lg rounded shadow pb-4">
+            <div class="w-full bg-red-500 px-3 py-1 rounded-t-md">
+                <span class="font-bold text-white">Backlog</span>
+            </div>
+            <div class="overflow-y-auto" style="min-height: 60vh;max-height: 70vh;">
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg rounded shadow pb-4">
+            <div class="w-full bg-blue-500 px-3 py-1 rounded-t-md">
+                <span class="font-bold text-white">Todo</span>
+            </div>
+
+            <div class="overflow-y-auto" style="min-height: 60vh;max-height: 70vh;">
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white my-2 mx-3 cursor-move">
+                    asd
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg rounded shadow pb-4">
+            <div class="w-full bg-yellow-500 px-3 py-1 rounded-t-md">
+                <span class="font-bold text-white">Doing</span>
+            </div>
+
+            <div>
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg rounded shadow pb-4">
+            <div class="w-full bg-green-500 px-3 py-1 rounded-t-md">
+                <span class="font-bold text-white">Done</span>
+            </div>
+
+            <div>
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+
+                <div class="bg-white shadow rounded px-3 pt-3 pb-5 border border-white mt-3 mx-3 cursor-move">
+                    asd
+                </div>
+            </div>
+        </div>
+      </div>
+
+    
+</body>
+</html>
