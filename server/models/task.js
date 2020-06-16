@@ -9,7 +9,15 @@ module.exports = (sequelize, DataTypes) => {
     },
     category: {
       allowNull: false,
-      type: DataTypes.STRING
+      type: DataTypes.ENUM('backlog','todo','doing','done'),
+      validate: {
+        checkCategory() {
+          const list = ['backlog', 'todo', 'doing', 'done'];
+          if(!list.includes(this.category)){
+            throw new Error('Category must be : backlog, todo, doing, done')
+          }
+        }
+      }
     },
     UserId: {
       allowNull: false,
