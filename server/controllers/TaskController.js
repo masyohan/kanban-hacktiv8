@@ -6,7 +6,7 @@ class TaskController{
             const tasks = await Task.findAll({
                 include: {
                     model: User,
-                    attributes: ['id','fullname','organization'],
+                    attributes: ['id','fullname','organization','email'],
                     where: {
                         organization: req.userData.organization
                     }
