@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const serverRequest = axios.create({
-    baseURL: 'http://localhost:3000'
+    baseURL: 'https://kanban-yohan.herokuapp.com'
 })
 
 module.exports = serverRequest

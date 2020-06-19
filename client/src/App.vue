@@ -99,7 +99,7 @@
 </template>
 
 <script>
-let baseURL = 'http://localhost:3000'
+let baseURL = 'https://kanban-yohan.herokuapp.com'
 let socket = io(baseURL)
 
 import serverRequest from './serverRequest'
